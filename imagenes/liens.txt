@@ -1,0 +1,28 @@
+mapaSedesUN.png: https://unal.edu.co/la-universidad/ubicacion.html
+sedeBO.jpeg: https://upload.wikimedia.org/wikipedia/commons/7/73/Plaza_Che%2C_Bogot%C3%A1.jpg
+sedeME.jpeg: https://upload.wikimedia.org/wikipedia/commons/5/52/UNAL-Bloque41-Medellin.JPG
+sedeMA.jpeg: http://agenciadenoticias.unal.edu.co/uploads/pics/AgenciaNoticias-20161215-01_04.jpg
+sedePA.jpeg: http://untelevision.unal.edu.co/uploads/pics/xapa-04_PALMIRA.jpg.pagespeed.ic.BxwAgFrycf.jpg
+sedeAM.jpeg: https://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_1_52_12f88c2d85.jpg
+sedeOR.jpeg: http://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_4._Arreglo_de_la_cubierta_del_edificio_a08e2ce387.jpg
+sedeCA.jpeg: http://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_AgenciaNoticias-20170130-01_03_ce4a652836.jpg
+sedeTU.jpeg: https://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_AgenciaDeNoticias-20191031-01_05_3498b4864b.jpg
+sedeDLP.jpeg: https://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_AgenciaDeNoticias-20180910-07_01_e55e549816.jpg
+
+estudiantes.png: http://4.bp.blogspot.com/-xbwWR-gJIIM/T-jbIQAvytI/AAAAAAAADmw/ZLQ0P5h-4vo/s1600/Sin+t%C3%ADtulo.png
+docentes.jpeg: http://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_AgenciaDeNoticias-20190617-01_03_62fc913841.jpg
+administrativos.jpeg: https://unal.edu.co/distinciones/distinciones2020/photos/distincAdm19-41.JPG
+museo.png: http://patrimoniocultural.bogota.unal.edu.co/fileadmin/user_upload/museo/sala1.png
+
+ClasesUNAL.jpeg: http://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_04-4_03_c248ed3851.jpg
+ConciertosUNAL.jpeg: http://patrimoniocultural.bogota.unal.edu.co/uploads/pics/oscmun-nov10.png
+ReunionUNAL.jpeg: https://www.educacionbogota.edu.co/portal_institucional/sites/default/files/inline-images/Selecci%C3%B3n%20cargos%20liderazgo%20Simonu%20Bogot%C3%A1%202019_2.jpg
+AdmisionesUNAL.jpeg: https://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_1_34_efb3a533b3.jpg
+ExamenesUNAL.jpeg: https://agenciadenoticias.unal.edu.co/typo3temp/_processed_/csm_1_28_08064d2d83.jpg
+DisturbiosUNAL.jpeg: https://www.uniminutoradio.com.co/wp-content/uploads/2019/04/unal-disturbios-696x392.jpg
+
+
+
+
+
+

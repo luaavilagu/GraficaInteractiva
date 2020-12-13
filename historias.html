@@ -1,0 +1,140 @@
+<!doctype html>
+<!-- documento de ejemplo de reorganización de elementos y cambio de propiedades según el ancho de la pantalla del disposititvo de consulta  - realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta lang="es">
+    <title>UN - Historias</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+
+<body class="body">
+    <div class="fondo">
+        <!-- agrupa todo para centrarlo en la página -->
+        <header>
+            <h1>
+                Historia
+            </h1>
+            <nav class="menunav">
+                <!-- la etiqueta <nav> agrupa los elementos del menu de navegación -->
+                <a class="botonMenu" href="index.html" target="_self">Inicio</a>
+                <a class="botonMenu" href="sitio.html" target="_self">Sitio</a>
+                <a class="botonMenu" href="personajes.html" target="_self">Personajes</a>
+                <a class="botonMenu" href="actividades.html" target="_self">Actividades</a>
+                <a class="botonMenu" href="historias.html" target="_self">Historia</a>
+                <a class="botonMenu" href="interactivo.html" target="_self">Interactivo</a>
+                <a class="botonMenu" href="credits.html" target="_self">Crédits</a>
+                <!-- cada botón tiene el mismo estilo botonMenu -->
+            </nav>
+        </header>
+
+        <div class="contenido">
+            
+            <div class="sublinks"> <!-- etiqueta class a sublinks para darles  más espacio y que se noten -->
+                <a href="#articuloSemana" target="_site" > <!-- Se crea referencia a articulo semana para ir directamente a este contenido en esta página -->
+                    <h2>Artículo revista Semana</h2>
+                </a>
+                <a href="#infoWikipedia" target="_site" >
+                    <h2>Información wikipedia</h2>
+                </a>
+            </div>
+
+            <a id="articuloSemana" href="https://especiales.semana.com/universidad-nacional/index.html" target="_blank" > <!-- referencia a un articulo externo, ademaás tiene un id que se utiliza para llegar directamente a esta sección -->
+                <h2>Artículo tomado de la revista Semana</h2>
+            </a> 
+            <p class="texto">Al cumplir sus 150 años, la Universidad Nacional, como el primer día, sigue siendo el gran
+                estandarte de la educación pública incluyente, libre y comprometida con el progreso del país.
+                <br><br>
+                Desde los albores de la República, muchos de sus gobernantes se han preocupado por que el Estado ofrezca
+                a los habitantes una educación universal, incluyente; crear ciudadanía en un entorno de progreso y
+                modernidad. Y la Universidad Nacional ha sido fundamental en esos propósitos.
+                <br><br>
+                El general Francisco de Paula Santander, como vicepresidente de la Gran Colombia, dio el primer paso
+                hacia esa meta al organizar no solo una red completa de escuelas y colegios, sino la Universidad Central
+                de la República (con sedes en Bogotá, Caracas y Quito), que si bien desapareció en 1850, es considerada
+                la génesis de la Universidad Nacional. Para Santander y muchos otros líderes e intelectuales la
+                educación debía ser pública y laica, al contrario de quienes defendieron e impusieron en otros periodos
+                que la Iglesia católica se hiciera cargo del sistema educativo.
+                <br><br>
+                Como hija de destacados liberales del Olimpo Radical, el 22 de septiembre de 1867 el Congreso de la
+                República creó la Universidad Nacional de los Estados Unidos de Colombia, que empezó a funcionar al año
+                siguiente bajo la rectoría de Manuel Ancízar. En cierta medida, recogió los ideales y la historia de la
+                Universidad Central.
+                <br><br>
+                En sus inicios, la Nacional tenía seis facultades: Artes y Oficios, Derecho, Medicina, Literatura y
+                Filosofía, Ciencias Naturales e Ingeniería. También le anexaron el Observatorio Astronómico, el Museo
+                Nacional, el Laboratorio Químico Nacional, la Biblioteca Nacional, el Hospital de la Caridad y el
+                Militar.
+                <br><br>
+                Desde un principio, la Universidad quedó inmersa en el debate, que se repetiría varias veces en sus 150
+                años de historia, sobre si allí debía o no existir una libertad de cátedra; si debía ser autónoma de los
+                gobiernos de turno y cuál papel debía cumplir frente al Estado y el país. Lo cierto es que desde su
+                fundación la UN ha sido abanderada de la educación pública nacional, policlasista y de alta calidad.
+                <br><br>
+                De hecho, desde un principio cada Estado podía enviar hasta ocho estudiantes a Bogotá para que
+                estudiaran de forma gratuita. El profesor suizo Ernst Röthlisberger, quien llegó en 1882, relata en sus
+                memorias que “también en cuanto al color de la tez había una gran variedad dentro del alumnado. Los más
+                diferentes matices se ofrecían a mi vista, desde el blanco rosado de los tiernos jovencitos de Bogotá
+                hasta el negro más intenso”.
+                <br><br>
+                Tras la caída de los liberales y la subida de los conservadores y la Regeneración, la Nacional también
+                tuvo un impacto, pues el gobierno limitó la libertad de cátedra, la autonomía trató de ejercer su
+                control junto con la Iglesia. De hecho, los profesores e intelectuales más liberales la dejaron para
+                fundar la Universidad Externado. Sin embargo, quienes se quedaron, unidos a los estudiantes, nunca
+                dejaron de defender los ideales que marcaron su historia: siempre nacional, moderna, actual y evolutiva,
+                experimental y unificadora, tal como lo proclamó el líder liberal Rafael Uribe Uribe...
+                <br><br>
+
+            </p>
+
+            <a id="infoWikipedia" href="https://es.wikipedia.org/wiki/Universidad_Nacional_de_Colombia" target="_blank">
+                <h2>Información tomada de Wikipedia</h2>
+            </a>
+            <p class="texto">
+                La idea de universidad pública y estatal en Colombia comenzó con la promulgación de la Ley 8 de 1826
+                “Sobre organización y arreglo de la Instrucción Pública”, promovida por el vicepresidente de la Gran
+                Colombia, Francisco de Paula Santander. En esa época se fundaron las universidades del Cauca, Cartagena
+                y Central de la República, con sedes en Bogotá, Caracas y Quito. La Central es la antecesora de la
+                Nacional. Se fundó el 25 de diciembre de 1826 en la manzana jesuítica de Bogotá. Esta agrupaba a la
+                Biblioteca Nacional, el Colegio Nacional de San Bartolomé (hoy Colegio Mayor de San Bartolomé) y la
+                Universidad propiamente dicha.
+                <br><br>
+                Con el argumento de que las universidades eran monopolios de enseñanza y de trabajo que atentaban contra
+                la libertad individual, los gobiernos federalistas y radicales cerraron la Universidad Central. En 1864,
+                José María Samper, antiguo radical, presentó sin embargo un proyecto de Ley al Congreso, de lo que llamó
+                Universidad Nacional de los Estados Unidos de Colombia. En 1867 se creó el Instituto Nacional de
+                Ciencias y Artes. El gran paso definitivo en la fundación se dio el 22 de septiembre de 1867 cuando el
+                Congreso expidió la Ley 66 que creó la Universidad Nacional de los Estados Unidos de Colombia, en la
+                administración de Santos Acosta.
+                <br><br>
+                En 1868 se expidió el Estatuto Orgánico, se abrieron las primeras escuelas y fue elegido el primer
+                rector, Ezequiel Rojas, quien no aceptó el cargo por motivos de salud. Fue nombrado en su reemplazo
+                Manuel Ancízar. En su primer año de actividad la Universidad inició labores con las facultades de Artes
+                y Oficios, Ingeniería, Medicina, Derecho y Ciencias Naturales, contó con 335 estudiantes y 45
+                profesores, entre los que se destacan personalidades como Miguel Antonio Caro e Indalecio Liévano.
+                <br><br>
+                El entorno se ensombreció debido a los múltiples conflictos políticos y sociales sucedidos en la segunda
+                mitad del siglo XIX. Durante la Regeneración, se le imputaron a la universidad la inestabilidad política
+                y la desazón social que rodearon el proceso de la nueva Constitución de 1886. Por eso, esta regresó al
+                control directo del Estado y perdió su limitada autonomía y su unidad académica.
+                <br><br>
+                La reforma de 1935 centralizó las facultades en un solo campus (antes eran una colección de escuelas
+                distribuidas por toda la ciudad). Para su aplicación y puesta en marcha se designó al payanés Manuel
+                Antonio Arboleda como secretario general, pero murió un año después en la tragedia de Fúquene. La
+                Reforma Universitaria se expidió a través de la Ley 68 de ese mismo año, llevó a la promulgación de la
+                Ley Orgánica para modernizarla, abrirla y situarla en la realidad del país. Durante este periodo el
+                Gobierno compró los terrenos donde funcionaría la Ciudad Universitaria...
+                <br><br>
+            </p>
+
+            <a href="" target="_top" >
+                <h5>Volver al inicio</h5>
+            </a>
+
+        </div>
+    </div>
+</body>
+
+</html>

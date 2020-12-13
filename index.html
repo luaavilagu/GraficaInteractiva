@@ -1,0 +1,80 @@
+<!doctype html>
+<!-- documento de ejemplo de reorganización de elementos y cambio de propiedades según el ancho de la pantalla del disposititvo de consulta  - realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<!-- El estudiante Luis Alejandro Avila Guevara perteneciente a esa asignatura lo tomó como base para su primer proyecto-->
+<html>
+
+<head>
+    <meta charset="UTF-8"><!-- la codificación UTF-8 permite utilizar tildes y ñ en el contenido (nunca en los nombres o las etiquetas) -->
+    <meta lang="es"><!-- idioma  español-->
+    <title>UN - Inicio</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"><!-- llama el archivo estilos.css -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"> <!-- para que ocupe la ventana del dispositivo al 100% al inicio -->
+</head>
+
+<body class="body"> <!--etiqueta body para el cuerpo de la pagina web con una clase asociada llamada body-->
+    <div class="fondo"><!--etiqueta div para seccionar parte del body de la pagina web con una clase asociada llamada fondo-->
+
+        <header> <!-- etiqueta para la cabecera de la página -->
+            <h1> <!-- h1: título más grande - Título principal dela página  -->
+                Inicio
+            </h1>
+            <nav class="menunav"><!-- la etiqueta <nav> agrupa los elementos del menu de navegación -->
+                <a class="botonMenu" href="index.html" target="_self">Inicio</a><!--  etiqueta a para ir a index.html en esta misma pestaña -->
+                <a class="botonMenu" href="sitio.html" target="_self">Sitio</a><!-- etiqueta a para ir a sitio.html en esta misma pestaña -->
+                <a class="botonMenu" href="personajes.html" target="_self">Personajes</a><!--  etiqueta a para ir a personajes.html en esta misma pestaña -->
+                <a class="botonMenu" href="actividades.html" target="_self">Actividades</a><!--  etiqueta a para ir a actividades.html en esta misma pestaña  -->
+                <a class="botonMenu" href="historias.html" target="_self">Historia</a><!--  etiqueta a para ir a historias.html en esta misma pestaña  -->
+                <a class="botonMenu" href="interactivo.html" target="_self">Interactivo</a>
+                <a class="botonMenu" href="credits.html" target="_self">Crédits</a><!--  etiqueta a para ir a credits.html en esta misma pestaña  -->
+                <!-- cada botón tiene el mismo estilo botonMenu -->
+            </nav>
+        </header>
+
+        <div class="contenido"> <!-- div con clase de contenido - todo despues del header -->
+            <img class="center" src="imagenes/unal.jpeg" alt="Logo UN"/> <!-- img para presentar una imagen de la carpeta imagenes con clase "center" que tiene una dimension del 30% de la pagina total y con nombre alternativo (para todas las imagenes) -->
+            <p class="texto"> <!-- Etiqueta de parrafo con clase texto para presentar mejor este tipo de contenido -->
+                El tema escogido para esta entrega es la Universidad Nacional de Colombia. <!-- Texto de la etiqueta parrafo -->
+                <br> <!-- Salto de linea -->
+                Aquí se presentará la siguiente información</p>
+            <dl> <!-- Uso de "description list" para presentar el contenido de la pagina de forma general -->
+                <dt>Inicio</dt> <!-- NOmbre de la pagina a la cual se le presentara el contenido -->
+                <dd>- Sitio seleccionado</dd> <!-- parte del contenido de la pagina inicio -->
+                <dd>- Próposito de la página</dd>
+                <dd>- Motivo de la página</dd>
+                <dt>Sitio</dt>
+                <dd>- Información de la UN</dd>
+                <dd>- Información detallada para cada una de las sedes con imagen relacionada</dd>
+                <dt>Personajes</dt>
+                <dd>- Estudiantes</dd>
+                <dd>- Docentes</dd>
+                <dd>- Administrativos</dd>
+                <dd>- Agentes externos</dd>
+                <dt>Actividades</dt>
+                <dd>- Clases</dd>
+                <dd>- Conciertos</dd>
+                <dd>- Tertulias</dd>
+                <dd>- Procedimientos académicos</dd>
+                <dd>- Examenes de Estado o propios de la universidad</dd>
+                <dd>- Pedreas</dd>
+                <dt>Historia</dt>
+                <dd>- Revista Semana</dd>
+                <dd>- Información Wikipedia</dd>
+                <dt>Interactivo</dt>
+                <dd>- Sedes UN</dd>
+                <dt>Crédits</dt>
+                <dd>- Diagrama del sitios</dd>
+                <dd>- Créditos de las imagenes</dd>
+                <dd>- Se encuentra en francés</dd>
+            </dl>
+
+            <h6>En esta página se realizó como primer proyecto de "Gráfica Interactiva".</h6> <!-- Título de tipo h6 "pequeño" para dar información -->
+
+            <a href="" target="_top" > <!-- Referencia a la misma página pero al inicio de la misma -->
+                <h5>Volver al inicio</h5>
+            </a>
+            
+        </div>
+    </div>
+</body>
+
+</html>

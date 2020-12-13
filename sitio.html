@@ -1,0 +1,205 @@
+<!doctype html>
+<!-- documento de ejemplo de reorganización de elementos y cambio de propiedades según el ancho de la pantalla del disposititvo de consulta  - realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<!-- El estudiante Luis Alejandro Avila Guevara perteneciente a esa asignatura lo tomó como base para su primer proyecto-->
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!-- la codificación UTF-8 permite utilizar tildes y ñ en el contenido (nunca en los nombres o las etiquetas) -->
+	<meta lang="es"><!-- la W3C recomienda definir un idioma al inicio además de la codificación UTF-8 -->
+	<title>UN - Sitio</title>
+	<link href="css/estilos.css" rel="stylesheet" type="text/css"><!-- llama el archivo estilos.css -->
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<!-- para que ocupe la ventana del dispositivo al 100% al inicio -->
+</head>
+
+<body class="body">
+	<div class="fondo">
+		<header>
+			<h1>
+				Sitio
+			</h1>
+			<nav class="menunav">
+				<!-- la etiqueta <nav> agrupa los elementos del menu de navegación -->
+				<a class="botonMenu" href="index.html" target="_self">Inicio</a>
+				<a class="botonMenu" href="sitio.html" target="_self">Sitio</a>
+				<a class="botonMenu" href="personajes.html" target="_self">Personajes</a>
+				<a class="botonMenu" href="actividades.html" target="_self">Actividades</a>
+				<a class="botonMenu" href="historias.html" target="_self">Historia</a>
+				<a class="botonMenu" href="interactivo.html" target="_self">Interactivo</a>
+				<a class="botonMenu" href="credits.html" target="_self">Crédits</a>
+				<!-- cada botón tiene el mismo estilo botonMenu -->
+			</nav>
+		</header>
+
+		<div class="contenido">
+			<!-- el elemento contenido agrupa todo lo que se encuentra después del menu -->
+			<p class=" texto" style="margin-top: 30px;">
+				La Universidad Nacional de Colombia cuenta con nueve sedes distribuidas en el territorio
+				colombiano, como se puede revisar en Interactivo. Pese a esto, se habla de un solo Campus Nacional; el mismo que es un
+				centro
+				donde se encuentran diferentes (y muchas veces contradictorias) corrientes de pensamiento y expresiones
+				urbanas
+				que acentúan su carácter de representante de la nación colombiana.
+				<br>
+				<br>
+				A continuación se presentan las ubicaciones para cada sede de la Universidad Nacional de Colombia.
+			</p>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeBO.jpeg" alt="Sede Bogotá" " /> <!-- etiqueta de imagen con clase "center50" para que el tamaño de la imagen sea del 50% del total de la página -->
+				<p class="texto">
+					En la sede Bogotá se encuentra un núcleo histórico conocido como la Ciudad Universitaria o la
+					Ciudad Blanca, con 17 construcciones que han sido declaradas monumento nacional y que son
+					representativas de los últimos 60 años de la arquitectura colombiana.
+					<br>
+					Dirección: Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez - Bogotá D.C., Colombia
+					<br>
+					Teléfono: (+57 1) 316 5000
+					<br>
+					E-mail: webmaster_bog@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeME.jpeg" alt="Sede Medellín"" />
+				<p class="texto">
+					En la sede Medellín se ubica una edificación diseñada por Pedro Nel Gómez, donde hoy funciona la
+					Facultad de
+					Minas.
+					<br>
+					Dirección: Carrera 65 Nro. 59A - 110 - Medellín, Colombia
+					<br>
+					Teléfono: (+57 4) 4309000
+					<br>
+					E-mail: webmaster_med@unal.edu.cowebmaster_bog@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeMA.jpeg" alt="Sede Manizales" />
+				<p class="texto">
+					En la sede Manizales está la antigua Estación del Cable Aéreo Manizales-Mariquita, hoy Facultad
+					de
+					Arquitectura, diseñado por Leopoldo Rother.
+					<br>
+					Dirección: Carrera 27 # 64-60 - Manizales, Colombia
+					<br>
+					Teléfono: (57+6) 8879300
+					<br>
+					E-mail: sisqueresu_man@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img  class="center50" src="imagenes/sedePA.jpeg" alt="Sede Palmira" />
+				<p class="texto">
+					En la sede Palmira se encuentra el edificio de la Facultad de Agronomía, diseñado también por
+					Leopoldo
+					Rother.
+					<br>
+					Dirección: Carrera 32 # 12 - 00 - Palmira, Colombia
+					<br>
+					Teléfono: (+57-2) 2868888
+					<br>
+					E-mail: secsede_pal@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img  class="center50" src="imagenes/sedeAM.jpeg" alt="Sede Amazonia"/>
+				<p class="texto">
+					En la sede Amazonia, el arquitecto Santiago Moreno recoge elementos locales y autóctonos,
+					méritos que fueron
+					destacados en la XVI Bienal de Arquitectura Colombiana.
+					<br>
+					Dirección: Kilometro 2 Via Tarapacá - Leticia, Colombia
+					<br>
+					Teléfono: (+57 8) 592 7996
+					<br>
+					E-mail: diramazonia_let@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeOR.jpeg" alt="Sede Orinoquia" />
+				<p class="texto">
+					En las construcciones de la sede Orinoquia trabajaron los arquitectos Santiago Moreno, Armando
+					Duque, Álvaro
+					Neira y Pedro Juan Jaramillo.
+					<br>
+					Dirección: Kilometro 9 vía a Caño Limón - Arauca, Colombia
+					<br>
+					Teléfono: (+57 1) 316 5000 Ext. 29700
+					<br>
+					E-mail: direccion_ara@unal.edu.cosecsede_pal@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeCA.jpeg" alt="Sede Caribe"/>
+				<p class="texto">
+					La sede Caribe está ubicada en la isla de San Andrés (Mar Caribe) en el sector de San Luis.
+					Consta de un
+					edificio donde se hallan las dependencias administrativas de la sede.
+					<br>
+					Dirección: Carr. circulv. San Luis Feetown # 52-44 - San Andres Isla, Colombia
+					<br>
+					Teléfono: (+57 1) 316 5000 Ext. 29600
+					<br>
+					E-mail: caribe@unal.edu.cosecsede_pal@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeTU.jpeg" alt="Sede Tumaco"/>
+				<p class="texto">
+					La sede Tumaco esta creada desde 1997, pero solamente hasta el año 2011 se adquirió un terreno
+					de 44,7 Ha.
+					localizado en el Km. 31 de la vía Tumaco - Pasto, cuyos diseños generales y específicos están
+					siendo
+					desarrollados a través de la facultad de Artes de la sede Bogotá.
+					<br>
+					Dirección: Km 30 vía Tumaco - Pasto, Colombia
+					<br>
+					Teléfono:(+57 1) 316 5000 Ext. 10547 - 10548
+					<br>
+					E-mail: secretaca_tum@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+			<div class="imagenTexto">
+				<img class="center50" src="imagenes/sedeDLP.jpeg" alt="Sede De La Paz"/>
+				<p class="texto">
+					La sede de La Paz fue creada por el Consejo Superior Universitario mediante el Acuerdo 250 de
+					2017, con el
+					objetivo de desarrollar programas académicos, de investigación y de extensión para las nuevas
+					generaciones
+					de
+					la región. La sede está ubicada en el municipio de La Paz, en el Departamento del Cesar.
+					<br>
+					Dirección: Kilómetro 9 Vía Valledupar - La Paz, Colombia
+					<br>
+					Teléfono: (+57 1) 316 5000
+					<br>
+					E-mail: sedelapaz@unal.edu.co
+					<br>
+					Horario de Atención: Lunes a Viernes 8:00 a.m. - 5:00 p.m.
+				</p>
+			</div>
+
+		<a href="" target="_top">
+			<h5>Volver al inicio</h5>
+		</a>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<!-- documento para la segunda parte del curso con Phaser -->
+<html>
+
+<head>
+    <meta charset="UTF-8"><!-- la codificación UTF-8 permite utilizar tildes y ñ en el contenido (nunca en los nombres o las etiquetas) -->
+    <meta lang="es"><!-- idioma  español-->
+    <title>UN - Interactivo</title>
+    <script src="js/phaser.js"></script> <!-- Hacemos referencia a la librería de phaser -->
+	<script src="js/interactivo.js"></script> <!-- Hacemos referencia a nuestro archivo de interactivo que tiene las animaciones -->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"><!-- llama el archivo estilos.css -->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0"> <!-- para que ocupe la ventana del dispositivo al 100% al inicio -->
+</head>
+
+<body class= "interactivo" > <!--etiqueta body para el cuerpo de la pagina web con una clase asociada llamada interactivo-->
+    <div class="fondo">
+        <header> <!-- etiqueta para la cabecera de la página -->
+            <h1> <!-- h1: título más grande - Título principal dela página  -->
+                Interactivo 
+            </h1>
+            <nav class="menunav"><!-- la etiqueta <nav> agrupa los elementos del menu de navegación -->
+                <a class="botonMenu" href="index.html" target="_self">Inicio</a><!--  etiqueta a para ir a index.html en esta misma pestaña -->
+                <a class="botonMenu" href="sitio.html" target="_self">Sitio</a><!-- etiqueta a para ir a sitio.html en esta misma pestaña -->
+                <a class="botonMenu" href="personajes.html" target="_self">Personajes</a><!--  etiqueta a para ir a personajes.html en esta misma pestaña -->
+                <a class="botonMenu" href="actividades.html" target="_self">Actividades</a><!--  etiqueta a para ir a actividades.html en esta misma pestaña  -->
+                <a class="botonMenu" href="historias.html" target="_self">Historia</a><!--  etiqueta a para ir a historias.html en esta misma pestaña  -->
+                <a class="botonMenu" href="interactivo.html" target="_self">Interactivo</a>
+                <a class="botonMenu" href="credits.html" target="_self">Crédits</a><!--  etiqueta a para ir a credits.html en esta misma pestaña  -->
+                <!-- cada botón tiene el mismo estilo botonMenu -->
+            </nav>
+        </header>
+
+        <div class="contenido">
+            
+            <div id = "interactivoUnal" class= "juegoPhaser" style="overflow: auto"; > <!-- Aqui se usara el codigo js bajo el id interactivoUnal y la clase juegoPhaser -->
+                    <h2 id="tituloInt" >Mapa interactivo de las sedes UN</h2> <!-- Titulo que cambiara -->
+                    <p id = "textoInt" > Escoge un punto en el mapa para mayor información de las sedes. </p> <!-- Contenido que cambiara -->
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+@font-face { /* font del profe */
+    font-family: Ancizar Sans-regular; /* nombre de la letra*/
+    src: url('../fonts/Ancizar Sans-Regular.otf'); /* ubicacion de la letra*/
+}
+@font-face {
+    font-family: Ancizar Serif-bold;
+    src: url('../fonts/Ancizar Serif-Bold.otf');
+}
+
+body { /* modificacion del estilo para la etiqueta body */
+	background-color: #f2e394;  /* define un color de fondo para todas las páginas */
+	align-content: center; /* define cómo el contenido se alinea */
+}
+
+.juegoPhaser{	/* modificacion para la class juegoPhaser */
+	
+	box-shadow: 10px 15px 15px 0 rgba(194, 165, 5, 0.4); /* Colocamos un sombra al recuadro */
+
+	margin: auto;
+	margin-top: 20px;
+	
+	width: 720px;
+
+	padding-left: 50px;
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	
+	background-color: #dfcc71;
+	} 
+
+#textoInt{ /* Cuando el texto es de la parte interactiva, se ajustan los estilos */
+	background-color: #e6cb45;
+	border-color: #eedf11;
+	border-style: solid;
+}
+
+
+.fondo {	/* creación de clase fondo para modificar el fondo  */
+    max-width: 1000px; /* definimos que la máxima amplitud es de 1000 pixeles */
+	margin: auto;	/* Le dejamos los margenes automaticos */
+}
+
+.contenido {    /* este elemento agrupa todo el contenido del sitio*/
+	max-width: 1000px;
+	padding: 5px 5px 5px 5px; /* Se le configura un padding por cada lado al rectangulo del contenido */
+	margin: auto;
+}
+
+.texto{    /* este elemento agrupa todo el conjunto y lo centra en la ventana*/
+	background-color: #f2ae72; /* Se cambia el color del background*/
+    max-width: 1000px;
+	margin: auto;
+	border: 2px solid #f2aef2; 	/* Se le especifica un borde de dos pixeles, solido con un color especifico */
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	text-align: center;	/* El texto se alinea al centro */
+
+	
+}
+
+.credito{	/* Formato especial para los creditos de las paginas */
+	border-radius: 10px; /* Se especifica la curvatura de la caja */
+	border-color: #000000;	/* Se coloca color negro para el borde */
+	border-style: double;	/* Se indica que la linea del borde sea doble */
+	margin: 5px 5px 5px 5px;
+}
+
+.imagenTexto {	/* Para las divisiones que tienen imagenes y texto en sitio */
+	font-size: 10px;	/* Se le coloca el tamaño de la fuenta a 10 pixeles */
+	font-style: normal;	/* El estilo de la fuente es normal */
+	font: #0011ff;	/* El color de la fuente es especifico */
+	text-align: center;	/* El texto de se alinea en el centro*/
+	
+}
+
+.sublinks {	/* Para hacer notar los enlaces que se usan dentro de la pagina */
+	background-color: #e2d384;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin: 1cm 4cm 1cm 4cm;
+}
+
+.mapaSitio {
+
+	border-color: #e66216;
+	
+	padding: 0.2cm 0.3cm 0.1cm 0.3cm;
+	margin: 5px 5px 5px 5px;
+	border-style: inset; /* Estilo como de recuadro */
+
+	width: 96%;
+
+}
+
+dl{
+    border: 3px double #ccc;
+    padding: 0.5em;
+}
+  
+dt{
+    float: left;	/* que flote por el lado izquierdo */
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;	/* texto en negrilla*/
+    color: green;
+}
+dt::after { /* De le agrega dos puntos luego de cada dt */
+    content: ":";
+}
+  
+dd{
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+}
+
+
+a {
+	text-decoration: underline overline dotted red;	/* resaltado con linea pordebajo y por encima punteada de color rojo para las etiqutas de tipo a */
+	color: green;
+	cursor: hand; /* que se ponga la manito para los enlaces */
+}
+
+
+.menunav {
+	position:relative;	/* Que la posicion del menu sea relativa, es decir, que no sea fija */
+    text-align: center;
+	left:10px;
+	float:center;
+	margin: auto;
+	margin-bottom: 30px;	/* Modificacion del margen inferior */
+}
+
+.center {
+	display: block;	/* Presentar como bloque */
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 30%;
+}
+
+.center50 {
+	
+	display: block;
+	
+	/*width: 600px;*/
+	
+	margin: auto;
+
+	
+	width: 40%;
+	height: 40%;
+	
+}
+
+h1 {
+	font-family: Ancizar Serif-bold;	/* Uso de la letra que se tiene*/
+	font-size: 32px;
+	font-style: normal;
+	font-weight: bold;
+	color: #d96459;
+	text-shadow: 1px 1px #000000;	/* Se le pone sombra de color negro al texto  */
+	text-align: center;
+	min-width:200px;	/* Se especifica un minimo de ancho en pixeles */
+    max-width:840px;
+    padding-top: 10px;
+}
+
+h2 {
+	font-family: Ancizar Serif-bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #588c7e;
+	text-shadow: 2px 2px #000000;
+	text-align: left;
+	min-width:200px;
+    max-width:840px;
+    padding-top: 10px;
+}
+
+h6 {
+	font-family: Ancizar Serif-bold;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #720404;
+	text-align: right;
+	min-width:200px;
+    max-width:840px;
+    padding-top: 10px;
+}
+
+p {
+	font-family: Ancizar Serif-bold;
+	font-size: 18px;
+	font-style: normal;
+	color: #5f5858;
+	text-align: center;
+	min-width:200px;
+    max-width:840px;
+    padding-top: 10px;
+}
+
+.botonMenu {
+
+	color: #666666;	
+	text-align: center;
+	width: 110px;  
+    float: left;
+    
+    text-decoration: none; /* Se le quita la decoración por default*/
+    padding: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-family: helvetica;
+	font-size: 14px;
+	font-weight: normal;
+    color: #802020;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+	border: 3px solid #8b2b2b;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* cuando la ventana mida menos de 860px */
+@media only screen and (max-width: 860px) {	/* Principalmente cambio en los colores de las letras */
+	.mapaSitio{
+		width: 92%; /* Cambiamos el ancho por algo más acorde al tamano de la pantalla */
+	}
+
+	.juegoPhaser{	
+		width: 500px; /* Reajustamos el tamano del juego */
+	} 
+
+    .menunav {
+        max-width:500px;  /* esto es para que la primera fila tenga máximo tres botones*/
+    }
+    h1{
+	    font-family: Ancizar Sans-regular;
+	    font-size: 30px;
+	    text-align: center;
+	    color:#D9A444;
+    }
+    h2 {
+	    font-family: Ancizar Sans-regular;
+	    font-size: 20px;
+	    font-style: normal;
+	    font-weight: bold;
+	    color: #07e9ad;
+	    text-align: left;
+        max-width: 250px;
+	}
+    .fondo {  
+    	min-width: 500px;
+    	max-width: 860px;
+    	margin: auto;  /* márgenes izquierdo y derecho iguales para centrar*/
+	}
+    .texto {
+		font-size: 17px;
+		color:#FFFFFF;
+	    text-align: left;
+	    line-height: 1.4;
+	    max-width:600px;
+		margin:1px;
+	    margin-right:10px;    
+	}
+
+}
+
+/* cuando la ventana mida menos de 640px */
+@media only screen and (max-width: 640px) {
+	.juegoPhaser{	
+
+		box-shadow: 6px 10px 10px 0 rgba(194, 165, 5, 0.6);
+
+		margin: auto;
+		margin-top: 7px;
+		
+		width: 380px;
+	
+		padding-left: 20px;
+		padding-top: 0px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+	} 
+
+    .texto {
+    font-family: Ancizar Sans-regular;
+	font-size: 14px;
+    line-height: 1.7; /* se recomienda aumentar el interlineado y no usar serifas en pantallas pequeñas*/
+    width:90%;
+	min-width:250px;
+	font-style: oblique;
+}
+    .menunav {
+    max-width:460px;  /* esto es para que la primera fila tenga máximo dos botones*/
+}
+     header label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    } 
+    .menu {
+        position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
+        background: rgba(0.5, 0.5, 0.5, 0.2); /* rojo, verde, azul, alpha (transparencia) */
+		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+        width: 40%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: -60%; /* se oculta porque se coloca por fuera de la ventana*/
+		margin-top: 4px;
+        transition: all 1s;   /* la animación de desplegar el menu dura 1 segundo*/
+    } 
+    .menu ul {
+        flex-direction: column;  /* se despliega en sentido vertical*/
+    } 
+    .menu li {
+    font-family: Ancizar Sans-regular;
+    }
+    
+    h1 {
+	font-size: 20px;
+	color: #ffA040;
+}
+h2 {
+	font-size: 18px;
+	color: #07e900;
+}
+}
